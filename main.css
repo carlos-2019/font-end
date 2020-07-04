@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto 100px;
+    /* darle espacio a las columnas y filas */
+    gap: 1em;
+}
+
+/* todos los div que esten en la clase container van a tener ese color y magen */
+.container div {
+    background: #ecf0f1;
+    padding: 1em;
+}
+
+/* para que cuando el usaurio pasa el cursor cambie a ese color */
+.container div:hover {
+    border: 1px solid #f1c40f;
+}
